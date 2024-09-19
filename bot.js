@@ -15,7 +15,7 @@ Client.on('ready', async ( client ) => {
 
 Client.on('messageCreate', async ( message ) => {
     if(message.author.bot) return;
-    if(message.content.startsWith('Hola')) message.channel.send('Buenas!')
+    if(message.content.startsWith('!')) message.channel.send('Buenas!')
 
     }
 );
